@@ -43,5 +43,7 @@ venv\Scripts\activate     # Windows
 5. **Ou acesse no navegador**:
    http://127.0.0.1:5000/
 
+## Documentação
 
-
+A documentação foi feita pela biblioteca "flasgger" utilizando o swagger.
+Para visualizar a documentação basta acessar o endpoint: http://127.0.0.1:5002/apidocs/ 
