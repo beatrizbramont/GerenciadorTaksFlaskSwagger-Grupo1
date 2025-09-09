@@ -6,7 +6,6 @@ from controllers.user_controller import UserController
 from controllers.task_controller import TaskController
 from flasgger import Swagger
 
-
 app = Flask(__name__)
 app.config.from_object(Config)
 
@@ -29,4 +28,4 @@ app.add_url_rule('/contact', 'contact', UserController.contact, methods=['GET', 
 
 
 if __name__ == '__main__':
-    app.run(debug=True, port=5002)
+    app.run(host="0.0.0.0", debug=True, port=5002)
